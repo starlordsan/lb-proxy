@@ -1,0 +1,14 @@
+{
+  "name": "proxy-loadbalance-iproyal",
+  "version": "1.0.0",
+  "description": "Proxy reverso com rotação de IPs IPRoyal para mascarar o IP do load balancer IPTV",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "https-proxy-agent": "^7.0.4"
+  }
+}
